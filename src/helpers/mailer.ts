@@ -29,7 +29,7 @@ export const sendEmail = async ({ email, emailType, userId }: any) => {
     });
 
     const mailOptions = {
-      from: '"Maddison Foo Koch 👻" <maddison53@ethereal.email>', // sender address
+      from: "nikhil@nikhil.ai", // sender address
       to: email,
       subject:
         emailType === "VERIFY" ? "Verify your email" : "Reset your password",
